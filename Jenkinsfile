@@ -1,5 +1,3 @@
-// Here is the Second Job and will be executed after the first one success. 
-
 @Library("jShrLibs") _
 pipeline {
     agent { label "docNode" }
