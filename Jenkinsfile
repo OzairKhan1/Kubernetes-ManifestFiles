@@ -1,6 +1,6 @@
 @Library("jShrLibs") _
 pipeline {
-    agent { label "docNode" }
+    agent any
 
     parameters {
         string(name: 'BUILD_NUMBER', defaultValue: '1', description: 'Build number from upstream job')
