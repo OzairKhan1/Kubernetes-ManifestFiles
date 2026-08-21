@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cartservice-config
+  namespace: 11-microservices
+data:
+  REDIS_ADDR: "redis-cart:6379"
