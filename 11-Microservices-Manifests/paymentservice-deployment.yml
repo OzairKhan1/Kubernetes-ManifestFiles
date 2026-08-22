@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/paymentservice:latest
+        image: ozairkhan1/paymentservice:v4
         ports:
         - containerPort: 50051
         envFrom:
