@@ -42,7 +42,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/loadgenerator:latest
+        image: ozairkhan1/loadgenerator:v3
         envFrom:
         - configMapRef:
             name: loadgenerator-config
@@ -55,7 +55,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/loadgenerator:latest
+        image: ozairkhan1/loadgenerator:v3
         envFrom:
         - configMapRef:
             name: loadgenerator-config
