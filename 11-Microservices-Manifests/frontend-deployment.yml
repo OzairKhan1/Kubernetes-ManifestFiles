@@ -65,7 +65,7 @@ metadata:
   name: frontend
   namespace: 11-microservices
 spec:
-  type: nodePort
+  type: NodePort
   selector:
     app: frontend
   ports:
