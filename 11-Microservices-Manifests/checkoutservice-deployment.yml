@@ -2,11 +2,11 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: checkoutservice
+  namespace: 11-microservices
 spec:
   selector:
     matchLabels:
       app: checkoutservice
-      namespace: 11-microservices
   template:
     metadata:
       labels:
