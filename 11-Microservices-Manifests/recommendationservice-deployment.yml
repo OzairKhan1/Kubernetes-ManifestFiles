@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/recommendationservice:latest
+        image: ozairkhan1/recommendationservice:v4
         ports:
         - containerPort: 8080
         readinessProbe:
