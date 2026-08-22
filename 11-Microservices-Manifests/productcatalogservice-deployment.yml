@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/productcatalogservice:latest
+        image: ozairkhan1/productcatalogservice:v5
         ports:
         - containerPort: 3550
         envFrom:
