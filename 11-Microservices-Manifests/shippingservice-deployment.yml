@@ -27,7 +27,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/shippingservice:latest
+        image: ozairkhan1/shippingservice:v3
         ports:
         - containerPort: 50051
         envFrom:
