@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/cartservice:v5
+        image: ozairkhan1/cartservice:v6
         ports:
         - containerPort: 7070
         envFrom:
