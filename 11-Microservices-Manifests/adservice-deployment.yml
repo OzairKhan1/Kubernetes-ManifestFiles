@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/adservice:v16
+        image: ozairkhan1/adservice:v17
         ports:
         - containerPort: 9555
         envFrom:
