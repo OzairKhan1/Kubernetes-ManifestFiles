@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/emailservice:v3
+        image: ozairkhan1/emailservice:v4
         ports:
         - containerPort: 8080
         envFrom:
