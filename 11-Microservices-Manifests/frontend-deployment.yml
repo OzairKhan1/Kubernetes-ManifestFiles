@@ -29,7 +29,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ozairkhan1/frontend:v5
+          image: ozairkhan1/frontend:v6
           ports:
           - containerPort: 8080
           readinessProbe:
