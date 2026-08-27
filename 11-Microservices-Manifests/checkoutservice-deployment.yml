@@ -27,7 +27,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: ozairkhan1/checkoutservice:v6
+          image: ozairkhan1/checkoutservice:v7
           ports:
           - containerPort: 5050
           readinessProbe:
