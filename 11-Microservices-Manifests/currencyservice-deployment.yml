@@ -28,7 +28,7 @@ spec:
               - ALL
           privileged: false
           readOnlyRootFilesystem: true
-        image: ozairkhan1/currencyservice:v4
+        image: ozairkhan1/currencyservice:v5
         ports:
         - name: grpc
           containerPort: 7000
