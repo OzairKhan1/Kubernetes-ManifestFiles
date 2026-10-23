@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: cloudacademydevops/frontend:v11
+        image: ozairkhan1/voteapp-frontend-react:v11
         imagePullPolicy: Always
         env:
           - name: REACT_APP_APIHOSTPORT
